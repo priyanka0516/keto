@@ -14,8 +14,7 @@ class Header extends Component {
       <Container>
         <Navbar.Brand href="#home">
         <img src={require('./../images/logo.png')} alt="logo"/>
-        </Navbar.Brand>
-        
+        </Navbar.Brand>      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto" sticky="top">
