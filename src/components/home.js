@@ -2,10 +2,10 @@ import React, {  useEffect, useState, useRef} from 'react';
 import './style.css';
 import './responsive.css';
 import Iframe from 'react-iframe';
-import Carousel from 'react-bootstrap/Carousel';
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+// import Carousel from 'react-bootstrap/Carousel';
+// import OwlCarousel from 'react-owl-carousel';
+// import 'owl.carousel/dist/assets/owl.carousel.css';
+// import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Slider from 'react-slick';
 function Home (){ 
    const [name, setName] = useState('');
